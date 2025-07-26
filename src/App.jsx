@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Sidebar isOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <Routes>
-        <Route path="/shop" element={<Shop />} />
+        <Route path="/" element={<Shop />} />
         <Route path="/about-contact" element={<AboutContact />} />
       </Routes>
     </Router>
