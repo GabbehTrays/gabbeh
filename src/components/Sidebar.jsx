@@ -21,7 +21,7 @@ const Sidebar = ({ isOpen, toggleMenu }) => {
         <img src="./assets/images/Gabbeh.png" alt="Gabbeh Logo" className="sidebar-logo" />
         <nav>
           <NavLink
-            to="/shop"
+            to="/gabbeh"
             className={({ isActive }) => (isActive ? 'active' : '')}
             onClick={toggleMenu}
           >
